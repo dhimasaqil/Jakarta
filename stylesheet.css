@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallpaperaccess.com/full/1288015.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-size: 24px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+.sejarahimg-wrap {
+  width: 100%;
+}
+.img-sejarah {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  padding-top: 21px 0;
+  font-size: 25px;
+  display: none;
+  visibility: hidden;
+}
+
+.content-wrapper {
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #5f5d60;
+}
+
+.heading h1 {
+  font-weight: bolder;
+}
+
+.deskripsi-gambar {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5f5d60;
+}
+
+.sejarah img {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.kuliner img {
+  width: 70%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.demo-img {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.demo-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.demografi-content {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 18px;
+}
+
+.demografi-content ol {
+  text-align: left;
+}
+
+.list-agama {
+  width: 50%;
+  text-align: left;
+}
+
+.list-suku {
+  width: 50%;
+  text-align: left;
+}
+
+.list-wrap {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.list-wrap p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  min-height: 420px;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15); /* offset-x | offset-y | blur-radius | color */
+}
+
+.card:hover {
+  background-color: rgba(34, 49, 52);
+  color: white;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.card-image {
+  height: 180px;
+  margin-bottom: 25px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+  background-image: url("https://static.tokopedia.net/blog/wp-content/uploads/2019/09/wisata-kota-tua-jakarta-1-Wikipedia.jpg");
+}
+
+.card-2 {
+  background-image: url("https://korporat.ancol.com/fm/app/public/Pintu%20Gerbang%20Ancol.jpg");
+}
+
+.card-3 {
+  background-image: url("https://salsawisata.b-cdn.net/wp-content/uploads/2021/07/Pasar-Seni.jpg.webp");
+}
+
+.card-4 {
+  background-image: url("https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2021/12/08/9c6ae660-1799-4276-b81d-f8b0b85669d6-1638949473006-1e6c55a1b1edca6bf250012af2cc79e2.jpg");
+}
+
+.card-5 {
+  background-image: url("https://salsawisata.b-cdn.net/wp-content/uploads/2021/07/Monumen-Nasional.jpg.webp");
+}
+
+.card-6 {
+  background-image: url("https://salsawisata.b-cdn.net/wp-content/uploads/2021/07/Masjid-Istiqlal.jpg.webp");
+}
+
+.card-7 {
+  background-image: url("https://akcdn.detik.net.id/visual/2021/04/08/wisata-tmii_169.jpeg?w=650");
+}
+
+.card-8 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Ragunan_Zoo_Gate.jpg");
+}
+
+.card-9 {
+  background-image: url("https://pingpoint.co.id/media/images/PONDOK1_p3ur8vK.original.jpg");
+}
+
+.card-10 {
+  background-image: url("https://museumnusantara.com/wp-content/uploads/2020/04/pelabuhan-sunda-kelapa-by-traveling-yuk.jpg");
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 15px;
+  padding: 10px 25px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.card a {
+  background-color: rgba(34, 49, 52);
+  color: white;
+  padding: 10px 20px;
+  display: inline;
+  text-align: center;
+  margin: auto 50px 30px 50px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: white;
+  color: rgba(34, 49, 52);
+  transform: scale(0.9);
+  transition: all 0.5s;
+}
+
+footer .container img {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-bottom: 20px;
+  color: rgba(34, 49, 52, 0.9);
+}

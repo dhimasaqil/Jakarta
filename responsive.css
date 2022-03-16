@@ -1,0 +1,91 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .demografi-content {
+    padding: 0 10px;
+  }
+
+  .list-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-contents {
+    width: 100%;
+  }
+  .list-wrap {
+    padding: 10px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .menu-icon {
+    visibility: visible;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    padding-top: 21px;
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .demografi-content {
+    padding: 0 20px;
+  }
+
+  .text-contents {
+    width: 100%;
+  }
+  .list-wrap {
+    padding: 0;
+  }
+}
